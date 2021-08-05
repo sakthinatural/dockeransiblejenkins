@@ -1,0 +1,7 @@
+---
+- hosts: dev
+  tasks:
+  - name : create directory
+    file:
+      path: /home/ubuntu/devops_directory
+      state: directory
