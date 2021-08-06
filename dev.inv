@@ -1,2 +1,2 @@
 [dev]
-ip-172-31-33-188.us-east-2.compute.internal
+172.31.33.188 ansible_user=ubuntu
