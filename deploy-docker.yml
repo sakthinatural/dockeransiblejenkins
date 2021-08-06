@@ -15,5 +15,5 @@
         name: hariapp
         image: "sakthinatural123/hariapp:{{DOCKER_TAG}}"
         state: started
-        exposed_ports:
-          - 6379
+        published_ports:
+          - 8080
